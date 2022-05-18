@@ -1,0 +1,353 @@
+@base <https://example.com/iqb/bista2004c1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<> a skos:ConceptScheme ;
+    dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de ;
+    dct:description "Bildungsstandards im Fach Chemie für den Mittleren Schulabschluss" ;
+    dct:publisher "IQB" ;
+    dct:title "Chemie Sek1" .
+
+<3> a skos:Concept ;
+    skos:definition "Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Schülerinnen und Schüler über naturwissenschaftliche Kompetenzen im Allgemeinen sowie chemische Kompetenzen im Besonderen. Kompetenzen sind nach Weinert (2001)^1 „die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können“. Die Kompetenzen, die eine naturwissenschaftliche Grundbildung ausmachen, bieten Anknüpfungspunkte für fachübergreifendes und fächerverbindendes Arbeiten. Sie werden ohne Berücksichtigung ihrer Vernetzung vier Bereichen zugeordnet und für das Fach Chemie spezifiziert: Fachwissen (chemische Phänomene, Begriffe, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen), Erkenntnisgewinnung, Kommunikation, Bewertung." ;
+    skos:prefLabel "Standards (Kompetenzen)" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.1",
+        "https://example.com/iqb/bista2004c1/3/3.2",
+        "https://example.com/iqb/bista2004c1/3/3.3",
+        "https://example.com/iqb/bista2004c1/3/3.4" .
+
+<3/3.1> a skos:Concept ;
+    skos:definition "Chemische Phänomene, Begriffe, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen" ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/3" ;
+    skos:prefLabel "Fachwiesen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.1/F1",
+        "https://example.com/iqb/bista2004c1/3/3.1/F2",
+        "https://example.com/iqb/bista2004c1/3/3.1/F3",
+        "https://example.com/iqb/bista2004c1/3/3.1/F4" .
+
+<3/3.1/F1> skos:definition "Die Schülerinnen und Schüler können..." ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1" ;
+    skos:prefLabel "Stoff-Teilchen-Beziehungen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.1/F1/F1.1",
+        "https://example.com/iqb/bista2004c1/3/3.1/F1/F1.2",
+        "https://example.com/iqb/bista2004c1/3/3.1/F1/F1.3",
+        "https://example.com/iqb/bista2004c1/3/3.1/F1/F1.4",
+        "https://example.com/iqb/bista2004c1/3/3.1/F1/F1.5" .
+
+<3/3.1/F1/F1.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F1" ;
+    skos:prefLabel "nennen und beschreiben bedeutsame Stoffe mit ihren typischen Eigenschaften," .
+
+<3/3.1/F1/F1.2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F1" ;
+    skos:prefLabel "beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe," .
+
+<3/3.1/F1/F1.3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F1" ;
+    skos:prefLabel "beschreiben den Bau von Atomen mit Hilfe eines geeigneten Atommodells," .
+
+<3/3.1/F1/F1.4> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F1" ;
+    skos:prefLabel "verwenden Bindungsmodelle zur Interpretation von Teilchenaggregationen, räumlichen Strukturen und zwischenmolekularen Wechselwirkungen," .
+
+<3/3.1/F1/F1.5> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F1" ;
+    skos:prefLabel "erklären die Vielfalt der Stoffe auf der Basis unterschiedlicher Kombinationen und Anordnungen von Teilchen.beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe," .
+
+<3/3.1/F2> skos:definition "Die Schülerinnen und Schüler können..." ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1" ;
+    skos:prefLabel "Struktur-Eigenschafts-Beziehungen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.1/F2/F2.1",
+        "https://example.com/iqb/bista2004c1/3/3.1/F2/F2.2",
+        "https://example.com/iqb/bista2004c1/3/3.1/F2/F2.3" .
+
+<3/3.1/F2/F2.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F2" ;
+    skos:prefLabel "beschreiben und begründen Ordnungsprinzipien für Stoffe, z.B. mit ihren typischen Eigenschaften oder mit charakteristischen Merkmalen der Zusammensetzung und Struktur der Teilchen," .
+
+<3/3.1/F2/F2.2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F2" ;
+    skos:prefLabel "nutzen ein geeignetes Modell zur Deutung von Stoffeigenschaften auf Teilchenebene," .
+
+<3/3.1/F2/F2.3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F2" ;
+    skos:prefLabel "schließen aus den Eigenschaften der Stoffe auf ihre Verwendungsmöglichkeiten und auf damit verbundene Vor- und Nachteile." .
+
+<3/3.1/F3> skos:definition "Die Schülerinnen und Schüler können..." ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1" ;
+    skos:prefLabel "chemische Reaktion" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.1/F3/F3.1",
+        "https://example.com/iqb/bista2004c1/3/3.1/F3/F3.2",
+        "https://example.com/iqb/bista2004c1/3/3.1/F3/F3.3",
+        "https://example.com/iqb/bista2004c1/3/3.1/F3/F3.4",
+        "https://example.com/iqb/bista2004c1/3/3.1/F3/F3.5",
+        "https://example.com/iqb/bista2004c1/3/3.1/F3/F3.6",
+        "https://example.com/iqb/bista2004c1/3/3.1/F3/F3.7" .
+
+<3/3.1/F3/F3.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F3" ;
+    skos:prefLabel "beschreiben Phänomene der Stoff- und Energieumwandlung bei chemischen Reaktionen," .
+
+<3/3.1/F3/F3.2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F3" ;
+    skos:prefLabel "deuten Stoff- und Energieumwandlungen hinsichtlich der Veränderung von Teilchen und des Umbaus chemischer Bindungen," .
+
+<3/3.1/F3/F3.3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F3" ;
+    skos:prefLabel "kennzeichnen in ausgewählten Donator-Akzeptor-Reaktionen die Übertragung von Teilchen und bestimmen die Reaktionsart," .
+
+<3/3.1/F3/F3.4> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F3" ;
+    skos:prefLabel "erstellen Reaktionsschemata/Reaktionsgleichungen durch Anwendung der Kenntnisse über die Erhaltung der Atome und die Bildung konstanter Atomzahlenverhältnisse in Verbindungen," .
+
+<3/3.1/F3/F3.5> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F3" ;
+    skos:prefLabel "beschreiben die Umkehrbarkeit chemischer Reaktionen," .
+
+<3/3.1/F3/F3.6> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F3" ;
+    skos:prefLabel "beschreiben Beispiele für Stoffkreisläufe in Natur und Technik als Systeme chemischer Reaktionen," .
+
+<3/3.1/F3/F3.7> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F3" ;
+    skos:prefLabel "beschreiben Möglichkeiten der Steuerung chemischer Reaktionen durch Variation von Reaktionsbedingungen." .
+
+<3/3.1/F4> skos:definition "Die Schülerinnen und Schüler können..." ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1" ;
+    skos:prefLabel "energetische Betrachtung bei Stoffumwandlungen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.1/F4/F4.1",
+        "https://example.com/iqb/bista2004c1/3/3.1/F4/F4.2",
+        "https://example.com/iqb/bista2004c1/3/3.1/F4/F4.3" .
+
+<3/3.1/F4/F4.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F4" ;
+    skos:prefLabel "geben an, dass sich bei chemischen Reaktionen auch der Energieinhalt des Reaktionssystems durch Austausch mit der Umgebung verändert," .
+
+<3/3.1/F4/F4.2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F4" ;
+    skos:prefLabel "führen energetische Erscheinungen bei chemischen Reaktionen auf die Umwandlung eines Teils der in Stoffen gespeicherten Energie in andere Energieformen zurück," .
+
+<3/3.1/F4/F4.3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.1/F4" ;
+    skos:prefLabel "beschreiben die Beeinflussbarkeit chemischer Reaktionen durch den Einsatz von Katalysatoren." .
+
+<3/3.2> a skos:Concept ;
+    skos:definition "Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen" ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/3" ;
+    skos:prefLabel "Erkenntnisgewinnung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.2/E" .
+
+<3/3.2/E> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2" ;
+    skos:prefLabel "Die Schülerinnen und Schüler können..." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.2/E/E1",
+        "https://example.com/iqb/bista2004c1/3/3.2/E/E2",
+        "https://example.com/iqb/bista2004c1/3/3.2/E/E3",
+        "https://example.com/iqb/bista2004c1/3/3.2/E/E4",
+        "https://example.com/iqb/bista2004c1/3/3.2/E/E5",
+        "https://example.com/iqb/bista2004c1/3/3.2/E/E6",
+        "https://example.com/iqb/bista2004c1/3/3.2/E/E7",
+        "https://example.com/iqb/bista2004c1/3/3.2/E/E8" .
+
+<3/3.2/E/E1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2/E" ;
+    skos:prefLabel "erkennen und entwickeln Fragestellungen, die mit Hilfe chemischer Kenntnisse und Untersuchungen, insbesondere durch chemische Experimente, zu beantworten sind," .
+
+<3/3.2/E/E2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2/E" ;
+    skos:prefLabel "planen geeignete Untersuchungen zur Überprüfung von Vermutungen und Hypothesen," .
+
+<3/3.2/E/E3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2/E" ;
+    skos:prefLabel "führen qualitative und einfache quantitative experimentelle und andere Untersuchungen durch und protokollieren diese," .
+
+<3/3.2/E/E4> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2/E" ;
+    skos:prefLabel "beachten beim Experimentieren Sicherheits- und Umweltaspekte," .
+
+<3/3.2/E/E5> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2/E" ;
+    skos:prefLabel "erheben bei Untersuchungen, insbesondere in chemischen Experimenten, relevante Daten oder recherchieren sie," .
+
+<3/3.2/E/E6> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2/E" ;
+    skos:prefLabel "finden in erhobenen oder recherchierten Daten, Trends, Strukturen und Beziehungen, erklären diese und ziehen geeignete Schlussfolgerungen," .
+
+<3/3.2/E/E7> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2/E" ;
+    skos:prefLabel "nutzen geeignete Modelle (z.B. Atommodelle, Periodensystem der Elemente) um chemische Fragestellungen zu bearbeiten," .
+
+<3/3.2/E/E8> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.2/E" ;
+    skos:prefLabel "zeigen exemplarisch Verknüpfungen zwischen gesellschaftlichen Entwicklungen und Erkenntnissen der Chemie auf." .
+
+<3/3.3> a skos:Concept ;
+    skos:definition "Informationen sach- und fachbezogen erschließen und austauschen" ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/3" ;
+    skos:prefLabel "Kommunikation" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.3/K" .
+
+<3/3.3/K> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3" ;
+    skos:prefLabel "Die Schülerinnen und Schüler können..." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.3/K/K1",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K10",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K2",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K3",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K4",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K5",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K6",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K7",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K8",
+        "https://example.com/iqb/bista2004c1/3/3.3/K/K9" .
+
+<3/3.3/K/K1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "recherchieren zu einem chemischen Sachverhalt in unterschiedlichen Quellen," .
+
+<3/3.3/K/K10> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "planen, strukturieren, reflektieren und präsentieren ihre Arbeit als Team." .
+
+<3/3.3/K/K2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "wählen themenbezogene und aussagekräftige Informationen aus," .
+
+<3/3.3/K/K3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "prüfen Darstellungen in Medien hinsichtlich ihrer fachlichen Richtigkeit," .
+
+<3/3.3/K/K4> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "beschreiben, veranschaulichen oder erklären chemische Sachverhalte unter Verwendung der Fachsprache und/oder mit Hilfe von Modellen und Darstellungen," .
+
+<3/3.3/K/K5> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "stellen Zusammenhänge zwischen chemischen Sachverhalten und Alltagserscheinungen her und übersetzen dabei bewusst Fachsprache in Alltagssprache und umgekehrt," .
+
+<3/3.3/K/K6> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "protokollieren den Verlauf und die Ergebnisse von Untersuchungen und Diskussionen in angemessener Form," .
+
+<3/3.3/K/K7> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "dokumentieren und präsentieren den Verlauf und die Ergebnisse ihrer Arbeit situationsgerecht und adressatenbezogen," .
+
+<3/3.3/K/K8> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "argumentieren fachlich korrekt und folgerichtig," .
+
+<3/3.3/K/K9> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.3/K" ;
+    skos:prefLabel "vertreten ihre Standpunkte zu chemischen Sachverhalten und reflektieren Einwände selbstkritisch," .
+
+<3/3.4> a skos:Concept ;
+    skos:definition "Chemische Sachverhalte in verschiedenen Kontexten erkennen und bewerten" ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/3" ;
+    skos:prefLabel "Berwertung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.4/B" .
+
+<3/3.4/B> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.4" ;
+    skos:prefLabel "Die Schülerinnen und Schüler können..." ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/3/3.4/B/B1",
+        "https://example.com/iqb/bista2004c1/3/3.4/B/B2",
+        "https://example.com/iqb/bista2004c1/3/3.4/B/B3",
+        "https://example.com/iqb/bista2004c1/3/3.4/B/B4",
+        "https://example.com/iqb/bista2004c1/3/3.4/B/B5",
+        "https://example.com/iqb/bista2004c1/3/3.4/B/B6" .
+
+<3/3.4/B/B1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.4/B" ;
+    skos:prefLabel "stellen Anwendungsbereiche und Berufsfelder dar, in denen chemische Kenntnisse bedeutsam sind," .
+
+<3/3.4/B/B2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.4/B" ;
+    skos:prefLabel "erkennen Fragestellungen, die einen engen Bezug zu anderen Unterrichtsfächern aufweisen und zeigen diese Bezüge auf," .
+
+<3/3.4/B/B3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.4/B" ;
+    skos:prefLabel "nutzen fachtypische und vernetzte Kenntnisse und Fertigkeiten, um lebenspraktisch bedeutsame Zusammenhänge zu erschließen," .
+
+<3/3.4/B/B4> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.4/B" ;
+    skos:prefLabel "entwickeln aktuelle, lebensweltbezogene Fragestellungen, die unter Nutzung fachwissenschaftlicher Erkenntnisse der Chemie beantwortet werden können," .
+
+<3/3.4/B/B5> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.4/B" ;
+    skos:prefLabel "diskutieren und bewerten gesellschaftsrelevante Aussagen aus unterschiedlichen Perspektiven," .
+
+<3/3.4/B/B6> skos:hasTopConcept "https://example.com/iqb/bista2004c1/3/3.4/B" ;
+    skos:prefLabel "binden chemische Sachverhalte in Problemzusammenhänge ein, entwickeln Lösungsstrategien und wenden diese an." .
+
+<a> a skos:Concept ;
+    skos:definition "Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf." ;
+    skos:prefLabel "Anforderungsbereiche" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/II",
+        "https://example.com/iqb/bista2004c1/a/III",
+        "https://example.com/iqb/bista2004c1/a/l" .
+
+<a/II> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/a" ;
+    skos:prefLabel "II" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/II/II.1",
+        "https://example.com/iqb/bista2004c1/a/II/II.2",
+        "https://example.com/iqb/bista2004c1/a/II/II.3",
+        "https://example.com/iqb/bista2004c1/a/II/II.4" .
+
+<a/II/II.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/II" ;
+    skos:prefLabel "Fachwiesen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/II/II.1/II.1.1" .
+
+<a/II/II.1/II.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/II/II.1" ;
+    skos:prefLabel "Kenntnisse und Konzepte auswählen und anwenden" .
+
+<a/II/II.2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/II" ;
+    skos:prefLabel "Erkenntnisgewinnung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/II/II.2/II.2.1" .
+
+<a/II/II.2/II.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/II/II.2" ;
+    skos:prefLabel "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung überschaubarer Sachverhalte auswählen und anwenden" .
+
+<a/II/II.3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/II" ;
+    skos:prefLabel "Kommunikation" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/II/II.3/II.3.1" .
+
+<a/II/II.3/II.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/II/II.3" ;
+    skos:prefLabel "Informationen erfassen und in geeigneten Darstellungsformen situations- und adressatengerecht veranschaulichen" .
+
+<a/II/II.4> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/II" ;
+    skos:prefLabel "Bewertung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/II/II.4/II.4.1" .
+
+<a/II/II.4/II.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/II/II.4" ;
+    skos:prefLabel "geeignete Argumente zur Bewertung eines Sachverhaltes auswählen und nutzen" .
+
+<a/III> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/a" ;
+    skos:prefLabel "III" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/III/II.1",
+        "https://example.com/iqb/bista2004c1/a/III/III.2",
+        "https://example.com/iqb/bista2004c1/a/III/III.3",
+        "https://example.com/iqb/bista2004c1/a/III/III.4" .
+
+<a/III/II.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/III" ;
+    skos:prefLabel "Fachwiesen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/III/II.1/III.1.1" .
+
+<a/III/II.1/III.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/III/II.1" ;
+    skos:prefLabel "komplexere Fragestellungen auf der Grundlage von Kenntnissen und Konzepten planmäßig und konstruktiv bearbeiten" .
+
+<a/III/III.2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/III" ;
+    skos:prefLabel "Erkenntnisgewinnung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/III/III.2/III.2.1" .
+
+<a/III/III.2/III.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/III/III.2" ;
+    skos:prefLabel "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung komplexer Sachverhalte begründet auswählen und anpassen" .
+
+<a/III/III.3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/III" ;
+    skos:prefLabel "Kommunikation" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/III/III.3/III.3.1" .
+
+<a/III/III.3/III.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/III/III.3" ;
+    skos:prefLabel "Informationen auswerten, reflektieren und für eigene Argumentationen nutzen" .
+
+<a/III/III.4> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/III" ;
+    skos:prefLabel "Bewertung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/III/III.4/III.4.1" .
+
+<a/III/III.4/III.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/III/III.4" ;
+    skos:prefLabel "Argumente zur Bewertung eines Sachverhaltes aus verschiedenen Perspektiven abwägen und Entscheidungsprozesse reflektieren" .
+
+<a/l> a skos:Concept ;
+    skos:hasTopConcept "https://example.com/iqb/bista2004c1/a" ;
+    skos:prefLabel "I" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/l/I.1",
+        "https://example.com/iqb/bista2004c1/a/l/I.2",
+        "https://example.com/iqb/bista2004c1/a/l/I.3",
+        "https://example.com/iqb/bista2004c1/a/l/I.4" .
+
+<a/l/I.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/l" ;
+    skos:prefLabel "Fachwiesen" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/l/I.1/I.1.1" .
+
+<a/l/I.1/I.1.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/l/I.1" ;
+    skos:prefLabel "Kenntnisse und Konzepte zielgerichtet wiedergeben" .
+
+<a/l/I.2> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/l" ;
+    skos:prefLabel "Erkenntnisgewinnung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/l/I.2/I.2.1" .
+
+<a/l/I.2/I.2.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/l/I.2" ;
+    skos:prefLabel "bekannte Untersuchungsmethoden und Modelle beschreiben, Untersuchungen nach Anleitung durchführen" .
+
+<a/l/I.3> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/l" ;
+    skos:prefLabel "Kommunikation" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/l/I.3/I.3.1" .
+
+<a/l/I.3/I.3.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/l/I.3" ;
+    skos:prefLabel "bekannte Informationen in verschiedenen fachlich relevanten Darstellungsformen erfassen und wiedergeben" .
+
+<a/l/I.4> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/l" ;
+    skos:prefLabel "Bewertung" ;
+    skos:topConceptOf "https://example.com/iqb/bista2004c1/a/l/I.4/I.4.1" .
+
+<a/l/I.4/I.4.1> skos:hasTopConcept "https://example.com/iqb/bista2004c1/a/l/I.4" ;
+    skos:prefLabel "vorgegebene Argumente zur Bewertung eines Sachverhaltes erkennen und wiedergeben" .
+
