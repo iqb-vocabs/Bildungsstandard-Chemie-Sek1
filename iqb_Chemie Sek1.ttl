@@ -6,7 +6,7 @@
     skos:broader <3/740f7779-80b2-4d07-a51a-3d24ab13cc34> ;
     skos:inScheme <> ;
     skos:notation "K1" ;
-    skos:prefLabel "recherchieren zu einem chemischen Sachverhalt in unterschiedlichen Quellen,"@de .
+    skos:prefLabel "recherchieren  zu einem chemischen Sachverhalt in unterschiedlichen Quellen,"@de .
 
 <3/0c03111e-15cb-424c-b04d-bda26fe4fbd6> a skos:Concept ;
     skos:broader <3/b3dda26a-3e38-482e-acd2-cd262f1a91a9> ;
