@@ -6,7 +6,7 @@
     skos:broader <3/53d09e5b-50a7-4b30-9630-0de74cecb4a8> ;
     skos:inScheme <> ;
     skos:notation "F1.5" ;
-    skos:prefLabel "erklären die Vielfalt der Stoffe auf der Basis unterschiedlicher Kombinationen und Anordnungen von Teilchen.beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe,"@de .
+    skos:prefLabel "erklären  die Vielfalt der Stoffe auf der Basis unterschiedlicher Kombinationen und Anordnungen von Teilchen.beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe,"@de .
 
 <3/21814a48-03dd-4bc9-8a29-45bf69c5971d> a skos:Concept ;
     skos:broader <3/53d09e5b-50a7-4b30-9630-0de74cecb4a8> ;
