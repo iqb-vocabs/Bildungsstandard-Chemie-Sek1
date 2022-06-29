@@ -1,503 +1,583 @@
-@base <https://example.com/iqb/bista2004c1/> .
+@base <https://w3id.org/iqb//bista04/bista04-ch-s1/> .
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 
-<3/3.1/F1/F1.1> a skos:Concept ;
-    skos:broader <3/3.1/F1> ;
+<3/01d3d2e9-a492-46bd-8bb5-cd2ee97cb5f4> a skos:Concept ;
+    skos:broader <3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d> ;
     skos:inScheme <> ;
-    skos:prefLabel "nennen und beschreiben bedeutsame Stoffe mit ihren typischen Eigenschaften,"@de .
-
-<3/3.1/F1/F1.2> a skos:Concept ;
-    skos:broader <3/3.1/F1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe,"@de .
-
-<3/3.1/F1/F1.3> a skos:Concept ;
-    skos:broader <3/3.1/F1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben den Bau von Atomen mit Hilfe eines geeigneten Atommodells,"@de .
-
-<3/3.1/F1/F1.4> a skos:Concept ;
-    skos:broader <3/3.1/F1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "verwenden Bindungsmodelle zur Interpretation von Teilchenaggregationen, räumlichen Strukturen und zwischenmolekularen Wechselwirkungen,"@de .
-
-<3/3.1/F1/F1.5> a skos:Concept ;
-    skos:broader <3/3.1/F1> ;
-    skos:inScheme <> ;
-    skos:prefLabel "erklären die Vielfalt der Stoffe auf der Basis unterschiedlicher Kombinationen und Anordnungen von Teilchen.beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe,"@de .
-
-<3/3.1/F2/F2.1> a skos:Concept ;
-    skos:broader <3/3.1/F2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben und begründen Ordnungsprinzipien für Stoffe, z.B. mit ihren typischen Eigenschaften oder mit charakteristischen Merkmalen der Zusammensetzung und Struktur der Teilchen,"@de .
-
-<3/3.1/F2/F2.2> a skos:Concept ;
-    skos:broader <3/3.1/F2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "nutzen ein geeignetes Modell zur Deutung von Stoffeigenschaften auf Teilchenebene,"@de .
-
-<3/3.1/F2/F2.3> a skos:Concept ;
-    skos:broader <3/3.1/F2> ;
-    skos:inScheme <> ;
-    skos:prefLabel "schließen aus den Eigenschaften der Stoffe auf ihre Verwendungsmöglichkeiten und auf damit verbundene Vor- und Nachteile."@de .
-
-<3/3.1/F3/F3.1> a skos:Concept ;
-    skos:broader <3/3.1/F3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben Phänomene der Stoff- und Energieumwandlung bei chemischen Reaktionen,"@de .
-
-<3/3.1/F3/F3.2> a skos:Concept ;
-    skos:broader <3/3.1/F3> ;
-    skos:inScheme <> ;
+    skos:notation "F3.2" ;
     skos:prefLabel "deuten Stoff- und Energieumwandlungen hinsichtlich der Veränderung von Teilchen und des Umbaus chemischer Bindungen,"@de .
 
-<3/3.1/F3/F3.3> a skos:Concept ;
-    skos:broader <3/3.1/F3> ;
+<3/19f422e4-aa6c-4293-9efe-aac7b1ac0f93> a skos:Concept ;
+    skos:broader <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
     skos:inScheme <> ;
-    skos:prefLabel "kennzeichnen in ausgewählten Donator-Akzeptor-Reaktionen die Übertragung von Teilchen und bestimmen die Reaktionsart,"@de .
-
-<3/3.1/F3/F3.4> a skos:Concept ;
-    skos:broader <3/3.1/F3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "erstellen Reaktionsschemata/Reaktionsgleichungen durch Anwendung der Kenntnisse über die Erhaltung der Atome und die Bildung konstanter Atomzahlenverhältnisse in Verbindungen,"@de .
-
-<3/3.1/F3/F3.5> a skos:Concept ;
-    skos:broader <3/3.1/F3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben die Umkehrbarkeit chemischer Reaktionen,"@de .
-
-<3/3.1/F3/F3.6> a skos:Concept ;
-    skos:broader <3/3.1/F3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben Beispiele für Stoffkreisläufe in Natur und Technik als Systeme chemischer Reaktionen,"@de .
-
-<3/3.1/F3/F3.7> a skos:Concept ;
-    skos:broader <3/3.1/F3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben Möglichkeiten der Steuerung chemischer Reaktionen durch Variation von Reaktionsbedingungen."@de .
-
-<3/3.1/F4/F4.1> a skos:Concept ;
-    skos:broader <3/3.1/F4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "geben an, dass sich bei chemischen Reaktionen auch der Energieinhalt des Reaktionssystems durch Austausch mit der Umgebung verändert,"@de .
-
-<3/3.1/F4/F4.2> a skos:Concept ;
-    skos:broader <3/3.1/F4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "führen energetische Erscheinungen bei chemischen Reaktionen auf die Umwandlung eines Teils der in Stoffen gespeicherten Energie in andere Energieformen zurück,"@de .
-
-<3/3.1/F4/F4.3> a skos:Concept ;
-    skos:broader <3/3.1/F4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben die Beeinflussbarkeit chemischer Reaktionen durch den Einsatz von Katalysatoren."@de .
-
-<3/3.2/E/E1> a skos:Concept ;
-    skos:broader <3/3.2/E> ;
-    skos:inScheme <> ;
-    skos:prefLabel "erkennen und entwickeln Fragestellungen, die mit Hilfe chemischer Kenntnisse und Untersuchungen, insbesondere durch chemische Experimente, zu beantworten sind,"@de .
-
-<3/3.2/E/E2> a skos:Concept ;
-    skos:broader <3/3.2/E> ;
-    skos:inScheme <> ;
-    skos:prefLabel "planen geeignete Untersuchungen zur Überprüfung von Vermutungen und Hypothesen,"@de .
-
-<3/3.2/E/E3> a skos:Concept ;
-    skos:broader <3/3.2/E> ;
-    skos:inScheme <> ;
-    skos:prefLabel "führen qualitative und einfache quantitative experimentelle und andere Untersuchungen durch und protokollieren diese,"@de .
-
-<3/3.2/E/E4> a skos:Concept ;
-    skos:broader <3/3.2/E> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beachten beim Experimentieren Sicherheits- und Umweltaspekte,"@de .
-
-<3/3.2/E/E5> a skos:Concept ;
-    skos:broader <3/3.2/E> ;
-    skos:inScheme <> ;
+    skos:notation "E5" ;
     skos:prefLabel "erheben bei Untersuchungen, insbesondere in chemischen Experimenten, relevante Daten oder recherchieren sie,"@de .
 
-<3/3.2/E/E6> a skos:Concept ;
-    skos:broader <3/3.2/E> ;
+<3/1d6e077b-a665-475d-bdab-ae39b91e6dae> a skos:Concept ;
+    skos:broader <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
     skos:inScheme <> ;
+    skos:notation "E6" ;
     skos:prefLabel "finden in erhobenen oder recherchierten Daten, Trends, Strukturen und Beziehungen, erklären diese und ziehen geeignete Schlussfolgerungen,"@de .
 
-<3/3.2/E/E7> a skos:Concept ;
-    skos:broader <3/3.2/E> ;
+<3/218d5319-6e54-463d-a30c-1cbba7d1d249> a skos:Concept ;
+    skos:broader <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
     skos:inScheme <> ;
-    skos:prefLabel "nutzen geeignete Modelle (z.B. Atommodelle, Periodensystem der Elemente) um chemische Fragestellungen zu bearbeiten,"@de .
+    skos:notation "E1" ;
+    skos:prefLabel "erkennen und entwickeln Fragestellungen, die mit Hilfe chemischer Kenntnisse und Untersuchungen, insbesondere durch chemische Experimente, zu beantworten sind,"@de .
 
-<3/3.2/E/E8> a skos:Concept ;
-    skos:broader <3/3.2/E> ;
+<3/270ceeef-91cb-4be8-938c-fa2bb0a18ca7> a skos:Concept ;
+    skos:broader <3/e21652eb-142c-4a16-9b48-1e98747b4061> ;
     skos:inScheme <> ;
-    skos:prefLabel "zeigen exemplarisch Verknüpfungen zwischen gesellschaftlichen Entwicklungen und Erkenntnissen der Chemie auf."@de .
+    skos:notation "F1.2" ;
+    skos:prefLabel "beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe,"@de .
 
-<3/3.3/K/K1> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
+<3/28166203-0ba8-4f85-bc17-4edc2d2116cb> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
     skos:inScheme <> ;
-    skos:prefLabel "recherchieren zu einem chemischen Sachverhalt in unterschiedlichen Quellen,"@de .
-
-<3/3.3/K/K10> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
-    skos:inScheme <> ;
-    skos:prefLabel "planen, strukturieren, reflektieren und präsentieren ihre Arbeit als Team."@de .
-
-<3/3.3/K/K2> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
-    skos:inScheme <> ;
-    skos:prefLabel "wählen themenbezogene und aussagekräftige Informationen aus,"@de .
-
-<3/3.3/K/K3> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
-    skos:inScheme <> ;
-    skos:prefLabel "prüfen Darstellungen in Medien hinsichtlich ihrer fachlichen Richtigkeit,"@de .
-
-<3/3.3/K/K4> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
-    skos:inScheme <> ;
-    skos:prefLabel "beschreiben, veranschaulichen oder erklären chemische Sachverhalte unter Verwendung der Fachsprache und/oder mit Hilfe von Modellen und Darstellungen,"@de .
-
-<3/3.3/K/K5> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
-    skos:inScheme <> ;
-    skos:prefLabel "stellen Zusammenhänge zwischen chemischen Sachverhalten und Alltagserscheinungen her und übersetzen dabei bewusst Fachsprache in Alltagssprache und umgekehrt,"@de .
-
-<3/3.3/K/K6> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
-    skos:inScheme <> ;
+    skos:notation "K6" ;
     skos:prefLabel "protokollieren den Verlauf und die Ergebnisse von Untersuchungen und Diskussionen in angemessener Form,"@de .
 
-<3/3.3/K/K7> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
+<3/2ae75f03-7c87-48e5-9a66-8fed4a8145d8> a skos:Concept ;
+    skos:broader <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
     skos:inScheme <> ;
-    skos:prefLabel "dokumentieren und präsentieren den Verlauf und die Ergebnisse ihrer Arbeit situationsgerecht und adressatenbezogen,"@de .
+    skos:notation "E3" ;
+    skos:prefLabel "führen qualitative und einfache quantitative experimentelle und andere Untersuchungen durch und protokollieren diese,"@de .
 
-<3/3.3/K/K8> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
+<3/2e873778-537f-4658-800d-8204ce66d665> a skos:Concept ;
+    skos:broader <3/e21652eb-142c-4a16-9b48-1e98747b4061> ;
     skos:inScheme <> ;
+    skos:notation "F1.4" ;
+    skos:prefLabel "verwenden Bindungsmodelle zur Interpretation von Teilchenaggregationen, räumlichen Strukturen und zwischenmolekularen Wechselwirkungen,"@de .
+
+<3/319b6566-df12-42ca-836c-8843f92548f2> a skos:Concept ;
+    skos:broader <3/ef774b40-0bb9-4030-b59a-2535f805d83b> ;
+    skos:inScheme <> ;
+    skos:notation "F4.1" ;
+    skos:prefLabel "geben an, dass sich bei chemischen Reaktionen auch der Energieinhalt des Reaktionssystems durch Austausch mit der Umgebung verändert,"@de .
+
+<3/372684ff-bf89-411b-a95b-0babc2b3460a> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
+    skos:inScheme <> ;
+    skos:notation "K8" ;
     skos:prefLabel "argumentieren fachlich korrekt und folgerichtig,"@de .
 
-<3/3.3/K/K9> a skos:Concept ;
-    skos:broader <3/3.3/K> ;
+<3/3f96fba8-8e24-45cd-8c8b-8eb08a2c80da> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
     skos:inScheme <> ;
-    skos:prefLabel "vertreten ihre Standpunkte zu chemischen Sachverhalten und reflektieren Einwände selbstkritisch,"@de .
+    skos:notation "K1" ;
+    skos:prefLabel "recherchieren zu einem chemischen Sachverhalt in unterschiedlichen Quellen,"@de .
 
-<3/3.4/B/B1> a skos:Concept ;
-    skos:broader <3/3.4/B> ;
+<3/491f8dee-93f0-4db6-9753-251d0a226cfc> a skos:Concept ;
+    skos:broader <3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d> ;
     skos:inScheme <> ;
-    skos:prefLabel "stellen Anwendungsbereiche und Berufsfelder dar, in denen chemische Kenntnisse bedeutsam sind,"@de .
+    skos:notation "F3.4" ;
+    skos:prefLabel "erstellen Reaktionsschemata/Reaktionsgleichungen durch Anwendung der Kenntnisse über die Erhaltung der Atome und die Bildung konstanter Atomzahlenverhältnisse in Verbindungen,"@de .
 
-<3/3.4/B/B2> a skos:Concept ;
-    skos:broader <3/3.4/B> ;
+<3/5ba1e683-93a3-4a75-8b4f-8150bc3f61c7> a skos:Concept ;
+    skos:broader <3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d> ;
     skos:inScheme <> ;
-    skos:prefLabel "erkennen Fragestellungen, die einen engen Bezug zu anderen Unterrichtsfächern aufweisen und zeigen diese Bezüge auf,"@de .
+    skos:notation "F3.7" ;
+    skos:prefLabel "beschreiben Möglichkeiten der Steuerung chemischer Reaktionen durch Variation von Reaktionsbedingungen."@de .
 
-<3/3.4/B/B3> a skos:Concept ;
-    skos:broader <3/3.4/B> ;
+<3/5d257476-a6dd-48e8-99dd-ce229bb3a2fd> a skos:Concept ;
+    skos:broader <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
     skos:inScheme <> ;
-    skos:prefLabel "nutzen fachtypische und vernetzte Kenntnisse und Fertigkeiten, um lebenspraktisch bedeutsame Zusammenhänge zu erschließen,"@de .
+    skos:notation "E7" ;
+    skos:prefLabel "nutzen geeignete Modelle (z.B. Atommodelle, Periodensystem der Elemente) um chemische Fragestellungen zu bearbeiten,"@de .
 
-<3/3.4/B/B4> a skos:Concept ;
-    skos:broader <3/3.4/B> ;
+<3/6013c4c4-6098-4a83-bc5f-070f6e68920d> a skos:Concept ;
+    skos:broader <3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d> ;
     skos:inScheme <> ;
-    skos:prefLabel "entwickeln aktuelle, lebensweltbezogene Fragestellungen, die unter Nutzung fachwissenschaftlicher Erkenntnisse der Chemie beantwortet werden können,"@de .
+    skos:notation "F3.5" ;
+    skos:prefLabel "beschreiben die Umkehrbarkeit chemischer Reaktionen,"@de .
 
-<3/3.4/B/B5> a skos:Concept ;
-    skos:broader <3/3.4/B> ;
+<3/6112446e-9c81-45b2-8a3a-35fa7939917b> a skos:Concept ;
+    skos:broader <3/80d825af-bac2-4570-abd1-dfe2245bfd68> ;
     skos:inScheme <> ;
+    skos:notation "F2.2" ;
+    skos:prefLabel "nutzen ein geeignetes Modell zur Deutung von Stoffeigenschaften auf Teilchenebene,"@de .
+
+<3/64e4fd13-ce4d-4a8d-8f41-fbcf579923c9> a skos:Concept ;
+    skos:broader <3/80d825af-bac2-4570-abd1-dfe2245bfd68> ;
+    skos:inScheme <> ;
+    skos:notation "F2.3" ;
+    skos:prefLabel "schließen aus den Eigenschaften der Stoffe auf ihre Verwendungsmöglichkeiten und auf damit verbundene Vor- und Nachteile."@de .
+
+<3/71771a2e-d43c-44b0-a479-a5b72417c56b> a skos:Concept ;
+    skos:broader <3/e63e6b1c-e3c7-4f9b-b50b-413ddfc07b91> ;
+    skos:inScheme <> ;
+    skos:notation "B5" ;
     skos:prefLabel "diskutieren und bewerten gesellschaftsrelevante Aussagen aus unterschiedlichen Perspektiven,"@de .
 
-<3/3.4/B/B6> a skos:Concept ;
-    skos:broader <3/3.4/B> ;
+<3/7800c898-593b-405d-a24b-463dd1e0671b> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
     skos:inScheme <> ;
+    skos:notation "K7" ;
+    skos:prefLabel "dokumentieren und präsentieren den Verlauf und die Ergebnisse ihrer Arbeit situationsgerecht und adressatenbezogen,"@de .
+
+<3/782c1287-6dbb-4821-a6f5-ffacdfc9f577> a skos:Concept ;
+    skos:broader <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
+    skos:inScheme <> ;
+    skos:notation "E4" ;
+    skos:prefLabel "beachten beim Experimentieren Sicherheits- und Umweltaspekte,"@de .
+
+<3/808ddb12-15b0-40e3-ba9f-3750971e2a66> a skos:Concept ;
+    skos:broader <3/ef774b40-0bb9-4030-b59a-2535f805d83b> ;
+    skos:inScheme <> ;
+    skos:notation "F4.3" ;
+    skos:prefLabel "beschreiben die Beeinflussbarkeit chemischer Reaktionen durch den Einsatz von Katalysatoren."@de .
+
+<3/835014ec-6e7d-459a-9187-dba1e76a5d4e> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
+    skos:inScheme <> ;
+    skos:notation "K10" ;
+    skos:prefLabel "planen, strukturieren, reflektieren und präsentieren ihre Arbeit als Team."@de .
+
+<3/862c2a44-90d3-469d-8e47-eb81d5c8f452> a skos:Concept ;
+    skos:broader <3/e21652eb-142c-4a16-9b48-1e98747b4061> ;
+    skos:inScheme <> ;
+    skos:notation "F1.5" ;
+    skos:prefLabel "erklären die Vielfalt der Stoffe auf der Basis unterschiedlicher Kombinationen und Anordnungen von Teilchen.beschreiben modellhaft den submikroskopischen Bau ausgewählter Stoffe,"@de .
+
+<3/9f2ea6cd-79b0-4884-ad8d-e808c93724ba> a skos:Concept ;
+    skos:broader <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
+    skos:inScheme <> ;
+    skos:notation "E8" ;
+    skos:prefLabel "zeigen exemplarisch Verknüpfungen zwischen gesellschaftlichen Entwicklungen und Erkenntnissen der Chemie auf."@de .
+
+<3/a17e3db7-7f38-4129-9cbe-4ea5dcb22112> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
+    skos:inScheme <> ;
+    skos:notation "K4" ;
+    skos:prefLabel "beschreiben, veranschaulichen oder erklären chemische Sachverhalte unter Verwendung der Fachsprache und/oder mit Hilfe von Modellen und Darstellungen,"@de .
+
+<3/a1ffb1c7-a3c9-44d6-b97e-8c9b4cb5ff69> a skos:Concept ;
+    skos:broader <3/80d825af-bac2-4570-abd1-dfe2245bfd68> ;
+    skos:inScheme <> ;
+    skos:notation "F2.1" ;
+    skos:prefLabel "beschreiben und begründen Ordnungsprinzipien für Stoffe, z.B. mit ihren typischen Eigenschaften oder mit charakteristischen Merkmalen der Zusammensetzung und Struktur der Teilchen,"@de .
+
+<3/a27bd5ce-a9a7-45b3-9077-10ceda7f4e53> a skos:Concept ;
+    skos:broader <3/e63e6b1c-e3c7-4f9b-b50b-413ddfc07b91> ;
+    skos:inScheme <> ;
+    skos:notation "B2" ;
+    skos:prefLabel "erkennen Fragestellungen, die einen engen Bezug zu anderen Unterrichtsfächern aufweisen und zeigen diese Bezüge auf,"@de .
+
+<3/aef8bc3e-c998-4b97-9615-93e9801be7d2> a skos:Concept ;
+    skos:broader <3/e63e6b1c-e3c7-4f9b-b50b-413ddfc07b91> ;
+    skos:inScheme <> ;
+    skos:notation "B4" ;
+    skos:prefLabel "entwickeln aktuelle, lebensweltbezogene Fragestellungen, die unter Nutzung fachwissenschaftlicher Erkenntnisse der Chemie beantwortet werden können,"@de .
+
+<3/b21fee09-98ea-4499-9f2c-f385547610b5> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
+    skos:inScheme <> ;
+    skos:notation "K2" ;
+    skos:prefLabel "wählen themenbezogene und aussagekräftige Informationen aus,"@de .
+
+<3/b4950f32-6d28-43f9-85f5-779527affe36> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
+    skos:inScheme <> ;
+    skos:notation "K3" ;
+    skos:prefLabel "prüfen Darstellungen in Medien hinsichtlich ihrer fachlichen Richtigkeit,"@de .
+
+<3/bcbad24d-51cd-43ce-b231-169b8b213fde> a skos:Concept ;
+    skos:broader <3/ef774b40-0bb9-4030-b59a-2535f805d83b> ;
+    skos:inScheme <> ;
+    skos:notation "F4.2" ;
+    skos:prefLabel "führen energetische Erscheinungen bei chemischen Reaktionen auf die Umwandlung eines Teils der in Stoffen gespeicherten Energie in andere Energieformen zurück,"@de .
+
+<3/bf0011cc-d1f3-495a-9a24-754d0bab9a2e> a skos:Concept ;
+    skos:broader <3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d> ;
+    skos:inScheme <> ;
+    skos:notation "F3.3" ;
+    skos:prefLabel "kennzeichnen in ausgewählten Donator-Akzeptor-Reaktionen die Übertragung von Teilchen und bestimmen die Reaktionsart,"@de .
+
+<3/c0558cdc-bc46-41e9-bdab-c6f5814f0082> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
+    skos:inScheme <> ;
+    skos:notation "K9" ;
+    skos:prefLabel "vertreten ihre Standpunkte zu chemischen Sachverhalten und reflektieren Einwände selbstkritisch,"@de .
+
+<3/c59f5126-7120-41a0-aec3-aa974271ad6e> a skos:Concept ;
+    skos:broader <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
+    skos:inScheme <> ;
+    skos:notation "E2" ;
+    skos:prefLabel "planen geeignete Untersuchungen zur Überprüfung von Vermutungen und Hypothesen,"@de .
+
+<3/c77041d6-b046-4d33-936b-073f1a3668ec> a skos:Concept ;
+    skos:broader <3/24adff77-965d-4015-9f81-ec19ed119309> ;
+    skos:inScheme <> ;
+    skos:notation "K5" ;
+    skos:prefLabel "stellen Zusammenhänge zwischen chemischen Sachverhalten und Alltagserscheinungen her und übersetzen dabei bewusst Fachsprache in Alltagssprache und umgekehrt,"@de .
+
+<3/c8228de7-7a15-426c-bce0-44b0c5532682> a skos:Concept ;
+    skos:broader <3/e21652eb-142c-4a16-9b48-1e98747b4061> ;
+    skos:inScheme <> ;
+    skos:notation "F1.3" ;
+    skos:prefLabel "beschreiben den Bau von Atomen mit Hilfe eines geeigneten Atommodells,"@de .
+
+<3/c82730e2-e476-4e88-881d-ec9d19603c33> a skos:Concept ;
+    skos:broader <3/e63e6b1c-e3c7-4f9b-b50b-413ddfc07b91> ;
+    skos:inScheme <> ;
+    skos:notation "B6" ;
     skos:prefLabel "binden chemische Sachverhalte in Problemzusammenhänge ein, entwickeln Lösungsstrategien und wenden diese an."@de .
 
-<a/II/II.1/II.1.1> a skos:Concept ;
-    skos:broader <a/II/II.1> ;
+<3/cf9f74ff-e30d-4efe-baed-0b647faff659> a skos:Concept ;
+    skos:broader <3/e63e6b1c-e3c7-4f9b-b50b-413ddfc07b91> ;
     skos:inScheme <> ;
-    skos:prefLabel "Kenntnisse und Konzepte auswählen und anwenden"@de .
+    skos:notation "B3" ;
+    skos:prefLabel "nutzen fachtypische und vernetzte Kenntnisse und Fertigkeiten, um lebenspraktisch bedeutsame Zusammenhänge zu erschließen,"@de .
 
-<a/II/II.2/II.2.1> a skos:Concept ;
-    skos:broader <a/II/II.2> ;
+<3/dbf4ebce-75fa-42af-a33e-ca346adf44c6> a skos:Concept ;
+    skos:broader <3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d> ;
     skos:inScheme <> ;
-    skos:prefLabel "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung überschaubarer Sachverhalte auswählen und anwenden"@de .
+    skos:notation "F3.6" ;
+    skos:prefLabel "beschreiben Beispiele für Stoffkreisläufe in Natur und Technik als Systeme chemischer Reaktionen,"@de .
 
-<a/II/II.3/II.3.1> a skos:Concept ;
-    skos:broader <a/II/II.3> ;
+<3/e2709aa2-b428-4e53-80cb-2a2aaa9d5f16> a skos:Concept ;
+    skos:broader <3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d> ;
     skos:inScheme <> ;
-    skos:prefLabel "Informationen erfassen und in geeigneten Darstellungsformen situations- und adressatengerecht veranschaulichen"@de .
+    skos:notation "F3.1" ;
+    skos:prefLabel "beschreiben Phänomene der Stoff- und Energieumwandlung bei chemischen Reaktionen,"@de .
 
-<a/II/II.4/II.4.1> a skos:Concept ;
-    skos:broader <a/II/II.4> ;
+<3/ee34f0ef-c16c-4ee4-9454-e4d297cba40b> a skos:Concept ;
+    skos:broader <3/e63e6b1c-e3c7-4f9b-b50b-413ddfc07b91> ;
     skos:inScheme <> ;
-    skos:prefLabel "geeignete Argumente zur Bewertung eines Sachverhaltes auswählen und nutzen"@de .
+    skos:notation "B1" ;
+    skos:prefLabel "stellen Anwendungsbereiche und Berufsfelder dar, in denen chemische Kenntnisse bedeutsam sind,"@de .
 
-<a/III/II.1/III.1.1> a skos:Concept ;
-    skos:broader <a/III/II.1> ;
+<3/fe5be6d5-e5a0-4748-98f6-1ed53d0ee5a7> a skos:Concept ;
+    skos:broader <3/e21652eb-142c-4a16-9b48-1e98747b4061> ;
     skos:inScheme <> ;
+    skos:notation "F1.1" ;
+    skos:prefLabel "nennen und beschreiben bedeutsame Stoffe mit ihren typischen Eigenschaften,"@de .
+
+<a/06ebce87-0661-4738-9ef1-42c2f1addbd2> a skos:Concept ;
+    skos:broader <a/37e9b9be-2177-4e2d-9c14-1ff9207ba5c0> ;
+    skos:inScheme <> ;
+    skos:notation "III.1.1" ;
     skos:prefLabel "komplexere Fragestellungen auf der Grundlage von Kenntnissen und Konzepten planmäßig und konstruktiv bearbeiten"@de .
 
-<a/III/III.2/III.2.1> a skos:Concept ;
-    skos:broader <a/III/III.2> ;
+<a/23833aa6-8411-414c-8d13-d779aaf0405e> a skos:Concept ;
+    skos:broader <a/40b4a077-fd2b-48b3-8e69-446ff749cedc> ;
     skos:inScheme <> ;
-    skos:prefLabel "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung komplexer Sachverhalte begründet auswählen und anpassen"@de .
-
-<a/III/III.3/III.3.1> a skos:Concept ;
-    skos:broader <a/III/III.3> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Informationen auswerten, reflektieren und für eigene Argumentationen nutzen"@de .
-
-<a/III/III.4/III.4.1> a skos:Concept ;
-    skos:broader <a/III/III.4> ;
-    skos:inScheme <> ;
-    skos:prefLabel "Argumente zur Bewertung eines Sachverhaltes aus verschiedenen Perspektiven abwägen und Entscheidungsprozesse reflektieren"@de .
-
-<a/l/I.1/I.1.1> a skos:Concept ;
-    skos:broader <a/l/I.1> ;
-    skos:inScheme <> ;
+    skos:notation "I.1.1" ;
     skos:prefLabel "Kenntnisse und Konzepte zielgerichtet wiedergeben"@de .
 
-<a/l/I.2/I.2.1> a skos:Concept ;
-    skos:broader <a/l/I.2> ;
+<a/38c860ab-6e33-4d37-9d57-3707c53c9694> a skos:Concept ;
+    skos:broader <a/9950458e-8cca-4d03-ba10-9a0dd285caca> ;
     skos:inScheme <> ;
+    skos:notation "II.1.1" ;
+    skos:prefLabel "Kenntnisse und Konzepte auswählen und anwenden"@de .
+
+<a/5e2d57bd-55b6-4e82-b4f0-ffde8066f04d> a skos:Concept ;
+    skos:broader <a/a66cc340-dda1-42a9-9a27-7c93f3a53c5c> ;
+    skos:inScheme <> ;
+    skos:notation "III.4.1" ;
+    skos:prefLabel "Argumente zur Bewertung eines Sachverhaltes aus verschiedenen Perspektiven abwägen und Entscheidungsprozesse reflektieren"@de .
+
+<a/687009e8-ad2e-4ebc-a58f-e3342084b1e6> a skos:Concept ;
+    skos:broader <a/d82f06ba-2a4f-40b0-924e-3cbfbee7b99b> ;
+    skos:inScheme <> ;
+    skos:notation "III.3.1" ;
+    skos:prefLabel "Informationen auswerten, reflektieren und für eigene Argumentationen nutzen"@de .
+
+<a/7bf06d18-1919-49b4-8cd3-b819b1b962c8> a skos:Concept ;
+    skos:broader <a/d857f89e-7605-405c-804d-4a3a53a0947d> ;
+    skos:inScheme <> ;
+    skos:notation "I.2.1" ;
     skos:prefLabel "bekannte Untersuchungsmethoden und Modelle beschreiben, Untersuchungen nach Anleitung durchführen"@de .
 
-<a/l/I.3/I.3.1> a skos:Concept ;
-    skos:broader <a/l/I.3> ;
+<a/938da5a1-6c3b-4dc1-b6c5-4640ab2b37cb> a skos:Concept ;
+    skos:broader <a/9e67c32d-3366-4a53-92e9-9492a067e3ba> ;
     skos:inScheme <> ;
+    skos:notation "II.4.1" ;
+    skos:prefLabel "geeignete Argumente zur Bewertung eines Sachverhaltes auswählen und nutzen"@de .
+
+<a/9d961676-ecb6-4dd7-8c9c-ba5774e229fe> a skos:Concept ;
+    skos:broader <a/cf5cd4cd-9482-48b3-96dc-29b9252285af> ;
+    skos:inScheme <> ;
+    skos:notation "I.3.1" ;
     skos:prefLabel "bekannte Informationen in verschiedenen fachlich relevanten Darstellungsformen erfassen und wiedergeben"@de .
 
-<a/l/I.4/I.4.1> a skos:Concept ;
-    skos:broader <a/l/I.4> ;
+<a/ace87417-6472-45fb-b6a1-07b8b7887d48> a skos:Concept ;
+    skos:broader <a/feb01d88-3b91-4bdc-83e4-e37685b4c103> ;
     skos:inScheme <> ;
+    skos:notation "I.4.1" ;
     skos:prefLabel "vorgegebene Argumente zur Bewertung eines Sachverhaltes erkennen und wiedergeben"@de .
 
-<3/3.2> a skos:Concept ;
-    skos:broader <3> ;
-    skos:definition "Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen"@de ;
+<a/b29330f5-1a05-4cf6-9b1e-658c26be6f42> a skos:Concept ;
+    skos:broader <a/ec128645-e252-4495-a438-056b7b0d4114> ;
     skos:inScheme <> ;
-    skos:narrower <3/3.2/E> ;
-    skos:prefLabel "Erkenntnisgewinnung"@de .
+    skos:notation "II.3.1" ;
+    skos:prefLabel "Informationen erfassen und in geeigneten Darstellungsformen situations- und adressatengerecht veranschaulichen"@de .
 
-<3/3.3> a skos:Concept ;
+<a/c437ef03-057f-46b3-950b-fc6c7f8d9a11> a skos:Concept ;
+    skos:broader <a/32b84bff-fcae-488b-a35c-20818fc10a32> ;
+    skos:inScheme <> ;
+    skos:notation "III.2.1" ;
+    skos:prefLabel "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung komplexer Sachverhalte begründet auswählen und anpassen"@de .
+
+<a/d7eccaf6-357d-4725-9d78-942bd2509815> a skos:Concept ;
+    skos:broader <a/201b203e-0ae4-4ec6-8ea5-aa42fa590731> ;
+    skos:inScheme <> ;
+    skos:notation "II.2.1" ;
+    skos:prefLabel "geeignete Untersuchungsmethoden und Modelle zur Bearbeitung überschaubarer Sachverhalte auswählen und anwenden"@de .
+
+<3/a1851b2b-52cd-46ac-ad48-a9b4028e5cae> a skos:Concept ;
     skos:broader <3> ;
     skos:definition "Informationen sach- und fachbezogen erschließen und austauschen"@de ;
     skos:inScheme <> ;
-    skos:narrower <3/3.3/K> ;
+    skos:narrower <3/24adff77-965d-4015-9f81-ec19ed119309> ;
+    skos:notation "3.3" ;
     skos:prefLabel "Kommunikation"@de .
 
-<3/3.4> a skos:Concept ;
+<3/ae18a93c-899c-4327-ab67-3abcdfcd7bd0> a skos:Concept ;
+    skos:broader <3> ;
+    skos:definition "Experimentelle und andere Untersuchungsmethoden sowie Modelle nutzen"@de ;
+    skos:inScheme <> ;
+    skos:narrower <3/49fba28c-9e34-4711-9faa-805395e4b13e> ;
+    skos:notation "3.2" ;
+    skos:prefLabel "Erkenntnisgewinnung"@de .
+
+<3/d7b830c4-3633-4d15-afbb-3b8aa44fec4b> a skos:Concept ;
     skos:broader <3> ;
     skos:definition "Chemische Sachverhalte in verschiedenen Kontexten erkennen und bewerten"@de ;
     skos:inScheme <> ;
-    skos:narrower <3/3.4/B> ;
+    skos:narrower <3/e63e6b1c-e3c7-4f9b-b50b-413ddfc07b91> ;
+    skos:notation "3.4" ;
     skos:prefLabel "Berwertung"@de .
 
-<a/II/II.1> a skos:Concept ;
-    skos:broader <a/II> ;
+<a/201b203e-0ae4-4ec6-8ea5-aa42fa590731> a skos:Concept ;
+    skos:broader <a/927528c4-192d-4b74-88ee-c349d36097ac> ;
     skos:inScheme <> ;
-    skos:narrower <a/II/II.1/II.1.1> ;
-    skos:prefLabel "Fachwiesen"@de .
-
-<a/II/II.2> a skos:Concept ;
-    skos:broader <a/II> ;
-    skos:inScheme <> ;
-    skos:narrower <a/II/II.2/II.2.1> ;
+    skos:narrower <a/d7eccaf6-357d-4725-9d78-942bd2509815> ;
+    skos:notation "II.2" ;
     skos:prefLabel "Erkenntnisgewinnung"@de .
 
-<a/II/II.3> a skos:Concept ;
-    skos:broader <a/II> ;
+<a/32b84bff-fcae-488b-a35c-20818fc10a32> a skos:Concept ;
+    skos:broader <a/3869ef8e-7fac-4b50-9a84-39da3fcc7b30> ;
     skos:inScheme <> ;
-    skos:narrower <a/II/II.3/II.3.1> ;
-    skos:prefLabel "Kommunikation"@de .
-
-<a/II/II.4> a skos:Concept ;
-    skos:broader <a/II> ;
-    skos:inScheme <> ;
-    skos:narrower <a/II/II.4/II.4.1> ;
-    skos:prefLabel "Bewertung"@de .
-
-<a/III/II.1> a skos:Concept ;
-    skos:broader <a/III> ;
-    skos:inScheme <> ;
-    skos:narrower <a/III/II.1/III.1.1> ;
-    skos:prefLabel "Fachwiesen"@de .
-
-<a/III/III.2> a skos:Concept ;
-    skos:broader <a/III> ;
-    skos:inScheme <> ;
-    skos:narrower <a/III/III.2/III.2.1> ;
+    skos:narrower <a/c437ef03-057f-46b3-950b-fc6c7f8d9a11> ;
+    skos:notation "III.2" ;
     skos:prefLabel "Erkenntnisgewinnung"@de .
 
-<a/III/III.3> a skos:Concept ;
-    skos:broader <a/III> ;
+<a/37e9b9be-2177-4e2d-9c14-1ff9207ba5c0> a skos:Concept ;
+    skos:broader <a/3869ef8e-7fac-4b50-9a84-39da3fcc7b30> ;
     skos:inScheme <> ;
-    skos:narrower <a/III/III.3/III.3.1> ;
-    skos:prefLabel "Kommunikation"@de .
-
-<a/III/III.4> a skos:Concept ;
-    skos:broader <a/III> ;
-    skos:inScheme <> ;
-    skos:narrower <a/III/III.4/III.4.1> ;
-    skos:prefLabel "Bewertung"@de .
-
-<a/l/I.1> a skos:Concept ;
-    skos:broader <a/l> ;
-    skos:inScheme <> ;
-    skos:narrower <a/l/I.1/I.1.1> ;
+    skos:narrower <a/06ebce87-0661-4738-9ef1-42c2f1addbd2> ;
+    skos:notation "II.1" ;
     skos:prefLabel "Fachwiesen"@de .
 
-<a/l/I.2> a skos:Concept ;
-    skos:broader <a/l> ;
+<a/40b4a077-fd2b-48b3-8e69-446ff749cedc> a skos:Concept ;
+    skos:broader <a/93cfb901-7ce6-4c44-b009-d7c154248ae3> ;
     skos:inScheme <> ;
-    skos:narrower <a/l/I.2/I.2.1> ;
-    skos:prefLabel "Erkenntnisgewinnung"@de .
+    skos:narrower <a/23833aa6-8411-414c-8d13-d779aaf0405e> ;
+    skos:notation "I.1" ;
+    skos:prefLabel "Fachwiesen"@de .
 
-<a/l/I.3> a skos:Concept ;
-    skos:broader <a/l> ;
+<a/9950458e-8cca-4d03-ba10-9a0dd285caca> a skos:Concept ;
+    skos:broader <a/927528c4-192d-4b74-88ee-c349d36097ac> ;
     skos:inScheme <> ;
-    skos:narrower <a/l/I.3/I.3.1> ;
-    skos:prefLabel "Kommunikation"@de .
+    skos:narrower <a/38c860ab-6e33-4d37-9d57-3707c53c9694> ;
+    skos:notation "II.1" ;
+    skos:prefLabel "Fachwiesen"@de .
 
-<a/l/I.4> a skos:Concept ;
-    skos:broader <a/l> ;
+<a/9e67c32d-3366-4a53-92e9-9492a067e3ba> a skos:Concept ;
+    skos:broader <a/927528c4-192d-4b74-88ee-c349d36097ac> ;
     skos:inScheme <> ;
-    skos:narrower <a/l/I.4/I.4.1> ;
+    skos:narrower <a/938da5a1-6c3b-4dc1-b6c5-4640ab2b37cb> ;
+    skos:notation "II.4" ;
     skos:prefLabel "Bewertung"@de .
 
-<3/3.1/F2> a skos:Concept ;
-    skos:broader <3/3.1> ;
+<a/a66cc340-dda1-42a9-9a27-7c93f3a53c5c> a skos:Concept ;
+    skos:broader <a/3869ef8e-7fac-4b50-9a84-39da3fcc7b30> ;
+    skos:inScheme <> ;
+    skos:narrower <a/5e2d57bd-55b6-4e82-b4f0-ffde8066f04d> ;
+    skos:notation "III.4" ;
+    skos:prefLabel "Bewertung"@de .
+
+<a/cf5cd4cd-9482-48b3-96dc-29b9252285af> a skos:Concept ;
+    skos:broader <a/93cfb901-7ce6-4c44-b009-d7c154248ae3> ;
+    skos:inScheme <> ;
+    skos:narrower <a/9d961676-ecb6-4dd7-8c9c-ba5774e229fe> ;
+    skos:notation "I.3" ;
+    skos:prefLabel "Kommunikation"@de .
+
+<a/d82f06ba-2a4f-40b0-924e-3cbfbee7b99b> a skos:Concept ;
+    skos:broader <a/3869ef8e-7fac-4b50-9a84-39da3fcc7b30> ;
+    skos:inScheme <> ;
+    skos:narrower <a/687009e8-ad2e-4ebc-a58f-e3342084b1e6> ;
+    skos:notation "III.3" ;
+    skos:prefLabel "Kommunikation"@de .
+
+<a/d857f89e-7605-405c-804d-4a3a53a0947d> a skos:Concept ;
+    skos:broader <a/93cfb901-7ce6-4c44-b009-d7c154248ae3> ;
+    skos:inScheme <> ;
+    skos:narrower <a/7bf06d18-1919-49b4-8cd3-b819b1b962c8> ;
+    skos:notation "I.2" ;
+    skos:prefLabel "Erkenntnisgewinnung"@de .
+
+<a/ec128645-e252-4495-a438-056b7b0d4114> a skos:Concept ;
+    skos:broader <a/927528c4-192d-4b74-88ee-c349d36097ac> ;
+    skos:inScheme <> ;
+    skos:narrower <a/b29330f5-1a05-4cf6-9b1e-658c26be6f42> ;
+    skos:notation "II.3" ;
+    skos:prefLabel "Kommunikation"@de .
+
+<a/feb01d88-3b91-4bdc-83e4-e37685b4c103> a skos:Concept ;
+    skos:broader <a/93cfb901-7ce6-4c44-b009-d7c154248ae3> ;
+    skos:inScheme <> ;
+    skos:narrower <a/ace87417-6472-45fb-b6a1-07b8b7887d48> ;
+    skos:notation "I.4" ;
+    skos:prefLabel "Bewertung"@de .
+
+<3/80d825af-bac2-4570-abd1-dfe2245bfd68> a skos:Concept ;
+    skos:broader <3/004e988d-7b40-47c3-98af-e63e98dcdcd5> ;
     skos:definition "Die Schülerinnen und Schüler können..."@de ;
     skos:inScheme <> ;
-    skos:narrower <3/3.1/F2/F2.1>,
-        <3/3.1/F2/F2.2>,
-        <3/3.1/F2/F2.3> ;
+    skos:narrower <3/6112446e-9c81-45b2-8a3a-35fa7939917b>,
+        <3/64e4fd13-ce4d-4a8d-8f41-fbcf579923c9>,
+        <3/a1ffb1c7-a3c9-44d6-b97e-8c9b4cb5ff69> ;
+    skos:notation "F2" ;
     skos:prefLabel "Struktur-Eigenschafts-Beziehungen"@de .
 
-<3/3.1/F4> a skos:Concept ;
-    skos:broader <3/3.1> ;
+<3/ef774b40-0bb9-4030-b59a-2535f805d83b> a skos:Concept ;
+    skos:broader <3/004e988d-7b40-47c3-98af-e63e98dcdcd5> ;
     skos:definition "Die Schülerinnen und Schüler können..."@de ;
     skos:inScheme <> ;
-    skos:narrower <3/3.1/F4/F4.1>,
-        <3/3.1/F4/F4.2>,
-        <3/3.1/F4/F4.3> ;
+    skos:narrower <3/319b6566-df12-42ca-836c-8843f92548f2>,
+        <3/808ddb12-15b0-40e3-ba9f-3750971e2a66>,
+        <3/bcbad24d-51cd-43ce-b231-169b8b213fde> ;
+    skos:notation "F4" ;
     skos:prefLabel "energetische Betrachtung bei Stoffumwandlungen"@de .
 
 <a> a skos:Concept ;
     skos:definition "Da noch keine empirisch abgesicherten Kompetenzstufenmodelle vorliegen, wird zunächst zur Einschätzung der in den Aufgabenbeispielen gestellten Anforderungen auf drei Bereiche zurückgegriffen, die sich in ihrer Beschreibung an den Einheitlichen Prüfungsanforderungen in der Abiturprüfung (EPA) orientieren. Dabei gilt, dass die Anforderungsbereiche nicht Ausprägungen oder Niveaustufen einer Kompetenz sind. Es handelt sich vielmehr um Merkmale von Aufgaben, die verschiedene Schwierigkeitsgrade innerhalb ein und derselben Kompetenz abbilden können. Die nachfolgenden Formulierungen zeigen deshalb zunächst charakterisierende Kriterien zur Einordnung in einen der Anforderungsbereiche auf."@de ;
-    skos:narrower <a/II>,
-        <a/III>,
-        <a/l> ;
+    skos:narrower <a/3869ef8e-7fac-4b50-9a84-39da3fcc7b30>,
+        <a/927528c4-192d-4b74-88ee-c349d36097ac>,
+        <a/93cfb901-7ce6-4c44-b009-d7c154248ae3> ;
     skos:prefLabel "Anforderungsbereiche"@de ;
     skos:topConceptOf <> .
 
 <3> a skos:Concept ;
     skos:definition "Mit dem Erwerb des Mittleren Schulabschlusses verfügen die Schülerinnen und Schüler über naturwissenschaftliche Kompetenzen im Allgemeinen sowie chemische Kompetenzen im Besonderen. Kompetenzen sind nach Weinert (2001)^1 „die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten, um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können“. Die Kompetenzen, die eine naturwissenschaftliche Grundbildung ausmachen, bieten Anknüpfungspunkte für fachübergreifendes und fächerverbindendes Arbeiten. Sie werden ohne Berücksichtigung ihrer Vernetzung vier Bereichen zugeordnet und für das Fach Chemie spezifiziert: Fachwissen (chemische Phänomene, Begriffe, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen), Erkenntnisgewinnung, Kommunikation, Bewertung."@de ;
-    skos:narrower <3/3.1>,
-        <3/3.2>,
-        <3/3.3>,
-        <3/3.4> ;
+    skos:narrower <3/004e988d-7b40-47c3-98af-e63e98dcdcd5>,
+        <3/a1851b2b-52cd-46ac-ad48-a9b4028e5cae>,
+        <3/ae18a93c-899c-4327-ab67-3abcdfcd7bd0>,
+        <3/d7b830c4-3633-4d15-afbb-3b8aa44fec4b> ;
     skos:prefLabel "Standards (Kompetenzen)"@de ;
     skos:topConceptOf <> .
 
-<3/3.1> a skos:Concept ;
+<3/004e988d-7b40-47c3-98af-e63e98dcdcd5> a skos:Concept ;
     skos:broader <3> ;
     skos:definition "Chemische Phänomene, Begriffe, Gesetzmäßigkeiten kennen und Basiskonzepten zuordnen"@de ;
     skos:inScheme <> ;
-    skos:narrower <3/3.1/F1>,
-        <3/3.1/F2>,
-        <3/3.1/F3>,
-        <3/3.1/F4> ;
+    skos:narrower <3/80d825af-bac2-4570-abd1-dfe2245bfd68>,
+        <3/e21652eb-142c-4a16-9b48-1e98747b4061>,
+        <3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d>,
+        <3/ef774b40-0bb9-4030-b59a-2535f805d83b> ;
+    skos:notation "3.1" ;
     skos:prefLabel "Fachwiesen"@de .
 
-<a/II> a skos:Concept ;
+<a/3869ef8e-7fac-4b50-9a84-39da3fcc7b30> a skos:Concept ;
     skos:broader <a> ;
     skos:inScheme <> ;
-    skos:narrower <a/II/II.1>,
-        <a/II/II.2>,
-        <a/II/II.3>,
-        <a/II/II.4> ;
-    skos:prefLabel "II"@de .
-
-<a/III> a skos:Concept ;
-    skos:broader <a> ;
-    skos:inScheme <> ;
-    skos:narrower <a/III/II.1>,
-        <a/III/III.2>,
-        <a/III/III.3>,
-        <a/III/III.4> ;
+    skos:narrower <a/32b84bff-fcae-488b-a35c-20818fc10a32>,
+        <a/37e9b9be-2177-4e2d-9c14-1ff9207ba5c0>,
+        <a/a66cc340-dda1-42a9-9a27-7c93f3a53c5c>,
+        <a/d82f06ba-2a4f-40b0-924e-3cbfbee7b99b> ;
+    skos:notation "III" ;
     skos:prefLabel "III"@de .
 
-<a/l> a skos:Concept ;
+<a/927528c4-192d-4b74-88ee-c349d36097ac> a skos:Concept ;
     skos:broader <a> ;
     skos:inScheme <> ;
-    skos:narrower <a/l/I.1>,
-        <a/l/I.2>,
-        <a/l/I.3>,
-        <a/l/I.4> ;
+    skos:narrower <a/201b203e-0ae4-4ec6-8ea5-aa42fa590731>,
+        <a/9950458e-8cca-4d03-ba10-9a0dd285caca>,
+        <a/9e67c32d-3366-4a53-92e9-9492a067e3ba>,
+        <a/ec128645-e252-4495-a438-056b7b0d4114> ;
+    skos:notation "II" ;
+    skos:prefLabel "II"@de .
+
+<a/93cfb901-7ce6-4c44-b009-d7c154248ae3> a skos:Concept ;
+    skos:broader <a> ;
+    skos:inScheme <> ;
+    skos:narrower <a/40b4a077-fd2b-48b3-8e69-446ff749cedc>,
+        <a/cf5cd4cd-9482-48b3-96dc-29b9252285af>,
+        <a/d857f89e-7605-405c-804d-4a3a53a0947d>,
+        <a/feb01d88-3b91-4bdc-83e4-e37685b4c103> ;
+    skos:notation "l" ;
     skos:prefLabel "I"@de .
 
-<3/3.1/F1> a skos:Concept ;
-    skos:broader <3/3.1> ;
+<3/e21652eb-142c-4a16-9b48-1e98747b4061> a skos:Concept ;
+    skos:broader <3/004e988d-7b40-47c3-98af-e63e98dcdcd5> ;
     skos:definition "Die Schülerinnen und Schüler können..."@de ;
     skos:inScheme <> ;
-    skos:narrower <3/3.1/F1/F1.1>,
-        <3/3.1/F1/F1.2>,
-        <3/3.1/F1/F1.3>,
-        <3/3.1/F1/F1.4>,
-        <3/3.1/F1/F1.5> ;
+    skos:narrower <3/270ceeef-91cb-4be8-938c-fa2bb0a18ca7>,
+        <3/2e873778-537f-4658-800d-8204ce66d665>,
+        <3/862c2a44-90d3-469d-8e47-eb81d5c8f452>,
+        <3/c8228de7-7a15-426c-bce0-44b0c5532682>,
+        <3/fe5be6d5-e5a0-4748-98f6-1ed53d0ee5a7> ;
+    skos:notation "F1" ;
     skos:prefLabel "Stoff-Teilchen-Beziehungen"@de .
 
-<3/3.4/B> a skos:Concept ;
-    skos:broader <3/3.4> ;
+<3/e63e6b1c-e3c7-4f9b-b50b-413ddfc07b91> a skos:Concept ;
+    skos:broader <3/d7b830c4-3633-4d15-afbb-3b8aa44fec4b> ;
     skos:inScheme <> ;
-    skos:narrower <3/3.4/B/B1>,
-        <3/3.4/B/B2>,
-        <3/3.4/B/B3>,
-        <3/3.4/B/B4>,
-        <3/3.4/B/B5>,
-        <3/3.4/B/B6> ;
+    skos:narrower <3/71771a2e-d43c-44b0-a479-a5b72417c56b>,
+        <3/a27bd5ce-a9a7-45b3-9077-10ceda7f4e53>,
+        <3/aef8bc3e-c998-4b97-9615-93e9801be7d2>,
+        <3/c82730e2-e476-4e88-881d-ec9d19603c33>,
+        <3/cf9f74ff-e30d-4efe-baed-0b647faff659>,
+        <3/ee34f0ef-c16c-4ee4-9454-e4d297cba40b> ;
+    skos:notation "B" ;
     skos:prefLabel "Die Schülerinnen und Schüler können..."@de .
 
-<3/3.1/F3> a skos:Concept ;
-    skos:broader <3/3.1> ;
+<3/edc8cfc9-b6e8-4abc-9eb0-3143f9bf0e3d> a skos:Concept ;
+    skos:broader <3/004e988d-7b40-47c3-98af-e63e98dcdcd5> ;
     skos:definition "Die Schülerinnen und Schüler können..."@de ;
     skos:inScheme <> ;
-    skos:narrower <3/3.1/F3/F3.1>,
-        <3/3.1/F3/F3.2>,
-        <3/3.1/F3/F3.3>,
-        <3/3.1/F3/F3.4>,
-        <3/3.1/F3/F3.5>,
-        <3/3.1/F3/F3.6>,
-        <3/3.1/F3/F3.7> ;
+    skos:narrower <3/01d3d2e9-a492-46bd-8bb5-cd2ee97cb5f4>,
+        <3/491f8dee-93f0-4db6-9753-251d0a226cfc>,
+        <3/5ba1e683-93a3-4a75-8b4f-8150bc3f61c7>,
+        <3/6013c4c4-6098-4a83-bc5f-070f6e68920d>,
+        <3/bf0011cc-d1f3-495a-9a24-754d0bab9a2e>,
+        <3/dbf4ebce-75fa-42af-a33e-ca346adf44c6>,
+        <3/e2709aa2-b428-4e53-80cb-2a2aaa9d5f16> ;
+    skos:notation "F3" ;
     skos:prefLabel "chemische Reaktion"@de .
 
-<3/3.2/E> a skos:Concept ;
-    skos:broader <3/3.2> ;
+<3/49fba28c-9e34-4711-9faa-805395e4b13e> a skos:Concept ;
+    skos:broader <3/ae18a93c-899c-4327-ab67-3abcdfcd7bd0> ;
     skos:inScheme <> ;
-    skos:narrower <3/3.2/E/E1>,
-        <3/3.2/E/E2>,
-        <3/3.2/E/E3>,
-        <3/3.2/E/E4>,
-        <3/3.2/E/E5>,
-        <3/3.2/E/E6>,
-        <3/3.2/E/E7>,
-        <3/3.2/E/E8> ;
+    skos:narrower <3/19f422e4-aa6c-4293-9efe-aac7b1ac0f93>,
+        <3/1d6e077b-a665-475d-bdab-ae39b91e6dae>,
+        <3/218d5319-6e54-463d-a30c-1cbba7d1d249>,
+        <3/2ae75f03-7c87-48e5-9a66-8fed4a8145d8>,
+        <3/5d257476-a6dd-48e8-99dd-ce229bb3a2fd>,
+        <3/782c1287-6dbb-4821-a6f5-ffacdfc9f577>,
+        <3/9f2ea6cd-79b0-4884-ad8d-e808c93724ba>,
+        <3/c59f5126-7120-41a0-aec3-aa974271ad6e> ;
+    skos:notation "E" ;
     skos:prefLabel "Die Schülerinnen und Schüler können..."@de .
 
-<3/3.3/K> a skos:Concept ;
-    skos:broader <3/3.3> ;
+<3/24adff77-965d-4015-9f81-ec19ed119309> a skos:Concept ;
+    skos:broader <3/a1851b2b-52cd-46ac-ad48-a9b4028e5cae> ;
     skos:inScheme <> ;
-    skos:narrower <3/3.3/K/K1>,
-        <3/3.3/K/K10>,
-        <3/3.3/K/K2>,
-        <3/3.3/K/K3>,
-        <3/3.3/K/K4>,
-        <3/3.3/K/K5>,
-        <3/3.3/K/K6>,
-        <3/3.3/K/K7>,
-        <3/3.3/K/K8>,
-        <3/3.3/K/K9> ;
+    skos:narrower <3/28166203-0ba8-4f85-bc17-4edc2d2116cb>,
+        <3/372684ff-bf89-411b-a95b-0babc2b3460a>,
+        <3/3f96fba8-8e24-45cd-8c8b-8eb08a2c80da>,
+        <3/7800c898-593b-405d-a24b-463dd1e0671b>,
+        <3/835014ec-6e7d-459a-9187-dba1e76a5d4e>,
+        <3/a17e3db7-7f38-4129-9cbe-4ea5dcb22112>,
+        <3/b21fee09-98ea-4499-9f2c-f385547610b5>,
+        <3/b4950f32-6d28-43f9-85f5-779527affe36>,
+        <3/c0558cdc-bc46-41e9-bdab-c6f5814f0082>,
+        <3/c77041d6-b046-4d33-936b-073f1a3668ec> ;
+    skos:notation "K" ;
     skos:prefLabel "Die Schülerinnen und Schüler können..."@de .
 
 <> a skos:ConceptScheme ;
